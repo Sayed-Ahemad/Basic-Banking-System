@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Bhai", cursive;
+}
+
+nav {
+  background: rgb(64, 64, 66);
+  height: 70px;
+  width: 100%;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  /* font-weight: bold; */
+  margin: 0px 20px;
+  line-height: 65px;
+  text-transform: uppercase;
+  font-family: "Baloo Bhai", cursive;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+  margin-top: 27px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 10px;
+  margin: 2px 10px;
+}
+
+nav li a {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-family: "Baloo Bhai", cursive;
+}
+
+a.active,
+a:hover {
+  background-color: rgb(5, 5, 5);
+  transition: 0.5s;
+}
+a:link {
+  text-decoration: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-info {
+  background-color: rgb(104, 9, 128) !important;
+  color: #fff !important;
+  margin-left: 10px;
+  transition: all 0.5s;
+  font-family: Roboto, sans-serif;
+}
+
+.btn-info:hover {
+  background-color: rgb(10, 23, 141) !important;
+}
+
+.container {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+}
+.my-info h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+.my-info h4 {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.container1 {
+  margin: 75px 40px;
+  padding: 16px 34px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 24px 22px;
+  text-align: center;
+  position: relative;
+  margin: 110px 0px;
+  font-weight: bolder;
+}
