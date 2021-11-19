@@ -11,7 +11,6 @@ function sendMoney() {
     var myBalance =
       parseInt(document.getElementById("myBalance").innerText) - enterAmount;
     document.getElementById("myBalance").innerText = myBalance;
-    // document.getElementById(findUserBankAccount).innerHTML = finalAmount;
     alert(
       `Transaction Successful !  ₹${enterAmount} is sent to ${enterName}@gmail.com.`
     );
